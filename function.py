@@ -41,7 +41,6 @@ def find_max(num1:int, num2:int, num3:int) -> None:
 find_max(11,2,3)
 
 
-
 def discount_price(price:int, discount_percentage:float) -> float:
     discount_price = price * discount_percentage
     final_price = price - discount_price
