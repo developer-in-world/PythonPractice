@@ -28,3 +28,14 @@ def rectangle(length:int, breadth:int) -> None:
     print(f"Area of the rectangle = {length*breadth}")
 
 rectangle(22,10)
+
+def find_max(num1:int, num2:int, num3:int) -> None:
+    if num1 > num2 and num1 > num3:
+        print(num1)
+    elif num2 > num3 and num2 > num1:
+        print(num2)
+    else:
+        print(num3)
+
+
+find_max(11,2,3)
